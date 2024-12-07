@@ -1,0 +1,152 @@
+:root {
+  --main-bg-color: #262936;
+  --second-bg-color: #323544;
+  --main-text-color: #fff;
+  --second-text-color: #bfc1c8;
+  --active-color: #009ad8;
+}
+
+.s-padding {
+  padding: 5rem 0;
+}
+
+body {
+  background-color: #1e202b;
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--main-bg-color);
+}
+
+nav span {
+  font-size: 0.6rem;
+  color: var(--second-text-color);
+}
+
+nav .active {
+  color: var(--active-color) !important;
+}
+
+.nav-link {
+  color: var(--main-text-color);
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 2px;
+  border-color: transparent;
+  transition: color 0.3s, border 0.3s;
+}
+
+.nav-link:hover,
+nav .active {
+  color: var(--active-color);
+  border-color: var(--active-color);
+}
+
+.site-content {
+  background-image: url(.././imgs/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.search {
+  background-color: var(--main-bg-color);
+  outline: none;
+}
+
+.findBtn {
+  width: 100px;
+  padding: 0.7rem;
+  right: 3px;
+  top: 3.5px;
+}
+
+.item {
+  color: var(--second-text-color);
+}
+
+.item1,
+.item3 {
+  background-color: var(--second-bg-color);
+}
+
+.item1 .date,
+.item3 .date {
+  background-color: #2c2f3d;
+}
+
+.item2 {
+  background-color: var(--main-bg-color);
+}
+
+.item2 .date {
+  background-color: #222530;
+}
+
+.temp {
+  font-size: 5rem;
+}
+.temp img {
+  width: 100px;
+}
+.temp span {
+  vertical-align: super;
+}
+
+.temp2 {
+  font-size: 1.6rem;
+}
+.day-info-img {
+  width: 60px;
+}
+.temp2 span {
+  vertical-align: super;
+}
+
+.weather-state {
+  color: var(--active-color);
+}
+
+.date p {
+  font-size: 14px;
+}
+
+@media (max-width: 990px) {
+  .item {
+    height: 330px;
+    border-radius: 10px;
+  }
+  .date {
+    border-radius: 10px;
+  }
+}
+
+
+.footer{
+  background-color: #262936;
+}
+
+.sub-input{
+  background-color: #1E202B;
+  outline: none;
+  color: #fff;
+  
+}
+
+.subBtn{
+  width: 100px;
+  padding: 0.7rem;
+  right: 4px;
+  top: 3.5px;
+}
+
+.social-links i{
+  transition: all .4s;
+}
+
+.social-links i:hover{
+  color: #fff;
+}
